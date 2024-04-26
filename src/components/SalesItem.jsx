@@ -68,10 +68,10 @@ const SalesItem = () => {
         <Title>Overview</Title>
         <TabGroup index={selectedIndex} onIndexChange={setSelectedIndex}>
           <TabList variant="solid">
-            <Tab icon={ChartPieIcon} className=" hover:font-bold">
+            <Tab icon={ChartPieIcon} className=" hover:font-bold dark:text-gray-300">
               Chart
             </Tab>
-            <Tab icon={ViewListIcon} className=" hover:font-bold">
+            <Tab icon={ViewListIcon} className=" hover:font-bold dark:text-gray-300">
               List
             </Tab>
           </TabList>
